@@ -1,0 +1,53 @@
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 7s ease infinite;
+	height: 100vh;
+	z-index: 4;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+img {
+	border-radius: 50%;
+  }
+
+
+
+  .wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: calc(100%);
+	
+  }
+  
+  .grButton {
+	font-family: 'Roboto', sans-serif;
+	font-size: 25px;
+	font-weight: 400;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 20px 40px;
+	border-radius: 8px;
+	background-image: linear-gradient(to right, #ff8a00, #da1b60, #ff8a00);
+	background-size: 165%;
+	background-position: left center;
+	transition: 0.4s;
+  }
+  
+  .grButton:hover {
+	background-position: right center;
+  }
+ 

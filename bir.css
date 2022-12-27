@@ -1,0 +1,23 @@
+.hi {
+  margin: 0;
+
+  cursor: crosshair;
+ 
+}
+
+
+
+canvas{display:block}
+h4 {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(0, 0, 0);
+  font-family: cursive ;
+  font-size: 4em;
+  font-weight: 20;
+  -webkit-user-select: none;
+  user-select: none;
+  z-index:5;
+}
